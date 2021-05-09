@@ -25,7 +25,7 @@ router.post('/', function(req, res, next) {
     }
     res.send(`stdout: ${stdout}`);
   });
-  res.send(req.body);
+  // res.send(req.body);
 });
 
 module.exports = router;
