@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  body
+    h1= "Add a movie!"
+    form(action="/" method="POST")
+      p API_KEY:
+        input(type="text" name="API_KEY" placeholder="")
+      p SECRET_KEY:
+        input(type="text" name="SECRET_KEY" placeholder="")
+      p USDT:
+        input(type="text" name="USDT" placeholder="")
+      p rate:
+        input(type="text" name="rate" placeholder="")
+      p multipler:
+        input(type="text" name="multipler" placeholder="")
+      p symbol:
+        input(type="text" name="symbol" placeholder="")
+      input(type="submit")
