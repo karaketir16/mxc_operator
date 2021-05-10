@@ -13,6 +13,7 @@ router.post('/', function(req, res, next) {
       req.body.USDT + " " +
       req.body.rate + " " +
       req.body.multipler + " " +
+      req.body.wait + " " +
       req.body.symbol
       , (error, stdout, stderr) => {
     if (error) {
