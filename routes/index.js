@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/', function(req, res, next) {
-  execFile("/usr/bin/python3", [req.body.API_KEY,
+  execFile("/usr/bin/python3", ["main2.py", req.body.API_KEY,
       req.body.SECRET_KEY ,
       req.body.USDT ,
       req.body.rate ,
