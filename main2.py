@@ -250,8 +250,8 @@ def get_deal_detail(order_id):
 if __name__ == '__main__':
     global API_KEY
     global SECRET_KEY
-    # API_KEY = 'mx0NdVdSj4qqJKOQHz'
-    # SECRET_KEY = '10cf20ec7bb842bb842151bc63870aa0'
+    
+    # API_KEY removed, and because it is reachable from history, disabled this key also
 
     API_KEY = sys.argv[1]
     SECRET_KEY = sys.argv[2]
